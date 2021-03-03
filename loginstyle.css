@@ -299,7 +299,7 @@ input[type='password']:focus{
 input[type='submit']{
     background-color:green;
     color: black;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
     margin: 15px;
     border: none;
@@ -309,8 +309,10 @@ input[type='submit']{
 .btn-block{
     background-color:green;
     color: black;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: bold;
+	margin: 15px;
+	padding: 10px 35px;
     border: none;
     border-radius: 50px;
     width: 180px;
