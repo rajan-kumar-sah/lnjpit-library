@@ -335,8 +335,9 @@ input[type='submit']:hover,.btn-block:hover{
     cursor:pointer;
 }
 .carousel-inner img{
-    height:450px;
-    border-radius: 5%;
+    height:380px;
+    border-radius: 2%;
+	transition:smooth;
 }
 
 .img-fluid{

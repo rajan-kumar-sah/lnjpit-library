@@ -21,7 +21,7 @@
 
 <!-- googlr font for logos -->
     <link href='bootstrap/css/font.css' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon"  href="img/lnjpit.ico">
+	<link rel="shortcut icon"  href="img/lnjpit.ico">	
 </head>
 <body class="body">
 <header id="header">
@@ -76,22 +76,22 @@ aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggl
 <section class="container1">
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 <ol class="carousel-indicators">
-<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+<li data-target="#carouselExampleIndicators" data-slide-to="0" class="active0"></li>
 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
 <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
 </ol>
 <div class="carousel-inner" style="padding-left: 10px;">
-<div class="carousel-item active">
+<div class="carousel-item active" data-interval="3000">
 <img src="img/lib1.jpg" class="d-block w-100" alt="...">
 </div>
-<div class="carousel-item">
+<div class="carousel-item" data-interval="3000">
 <img src="img/lib2.jpg" class="d-block w-100" alt="...">
 </div>
-<div class="carousel-item">
+<div class="carousel-item" data-interval="3000">
 <img src="img/lib3.jpg" class="d-block w-100" alt="...">
 </div>
-<div class="carousel-item">
+<div class="carousel-item" data-interval="3000">
 <img src="img/lib4.jpg" class="d-block w-100" alt="...">
 </div>
 </div>
@@ -282,6 +282,10 @@ event.preventDefault();
 $(this).ekkoLightbox();
 })
 </script>
+
+
+
+
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <!-- BODY ENDS -->
@@ -289,9 +293,10 @@ $(this).ekkoLightbox();
 <script src="bootstrap/js/popper.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
-
 <script src="bootstrap/js/bootstrap.bundle.js"></script>
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap/js/jquery-3.2.1.slim.min.js"></script>
+<script src="bootstrap/js/umdpopper.min.js"></script>
 <script src="bootstrap/js/mdb.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.js"></script>
 <!-- Latest compiled and minified JavaScript -->
