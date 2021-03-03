@@ -371,10 +371,6 @@ input[type='submit']:hover,.btn-block:hover{
     color:blue !important;
 }
 
-.container img{
-    border-radius: 10%;
-    border-style: solid;
-}
 
 
  .flip-box {
@@ -410,13 +406,13 @@ input[type='submit']:hover,.btn-block:hover{
 
 /* Style the front side (fallback if image is missing) */
 .flip-box-front {
-  background-color: #bbb;
+  background-color: transparent;
   color: black;
 }
 
 /* Style the back side */
 .flip-box-back {
-  background-color: dodgerblue;
-  color: white;
+  color: black;
+    border-radius: 10%;
   transform: rotateY(180deg);
 }
